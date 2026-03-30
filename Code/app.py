@@ -1,4 +1,3 @@
-# app.py
 import streamlit as st
 import google.generativeai as genai
 import os
@@ -37,7 +36,7 @@ importância de seguir as recomendações.
 
 """
 
-# Inicializando o modelo com o Prompt Engineering embutido
+# Inicializando o modelo com o Prompt Engineering
 model = genai.GenerativeModel(
     model_name="gemini-2.5-flash",
     system_instruction=SYSTEM_PROMPT
